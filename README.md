@@ -36,4 +36,4 @@ This approach is inspired by how BCI systems infer intent from indirect, noisy i
 Cortex is an experimental interface and is not a medical, psychological, or diagnostic tool.
 
 ## Author
-Philip Ismai
+Philip Ismail

@@ -40,4 +40,10 @@ const stylesByIntensity = {
         borderColor: "#4c7dff",
         boxShadow: "0 0 8px rgba(76,125,255,0.6)",
         transform: "scale(1.05)",
-    
+    },
+    3: {
+        borderColor: "#4c7dff",
+        boxShadow: "0 0 14px rgba(76,125,255,0.9)",
+        transform: "scale(1.1)",
+    },
+};

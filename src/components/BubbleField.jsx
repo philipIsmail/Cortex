@@ -173,4 +173,10 @@ const styles = {
     secondary: {
         padding: "12px 20px",
         borderRadius: "999px",
-        background:
+        background: "transparent",
+        color: "#aaa",
+        border: "1px solid #333",
+        cursor: "pointer",
+        minWidth: "96px",
+    },
+};

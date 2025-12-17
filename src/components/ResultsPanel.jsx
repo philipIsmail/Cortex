@@ -58,4 +58,6 @@ const styles = {
         cursor: "pointer",
     },
     confidence: { opacity: 0.7 },
-    secondary: { 
+    secondary: { opacity: 0.6 },
+    explanation: { marginTop: 12 },
+};
