@@ -39,9 +39,11 @@ const styles = {
     panel: {
         background: "#0f141a",
         borderRadius: "16px",
-        padding: "24px",
-        width: "90%",
+        padding: "20px",
+        width: "92%",
         maxWidth: "420px",
+        maxHeight: "85vh",
+        overflowY: "auto",
         color: "#eaeef3",
         position: "relative",
     },
@@ -56,6 +58,4 @@ const styles = {
         cursor: "pointer",
     },
     confidence: { opacity: 0.7 },
-    secondary: { opacity: 0.6 },
-    explanation: { marginTop: 12 },
-};
+    secondary: { 
