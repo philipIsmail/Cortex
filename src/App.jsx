@@ -19,7 +19,6 @@ const styles = {
         background: "#0b0f14",
         color: "#eaeef3",
         fontFamily: "Inter, system-ui, sans-serif",
-        touchAction: "manipulation",
     },
     header: {
         textAlign: "center",
