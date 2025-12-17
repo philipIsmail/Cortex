@@ -15,7 +15,6 @@ function App() {
 
 const styles = {
     app: {
-        minHeight: "100vh",
         background: "#0b0f14",
         color: "#eaeef3",
         fontFamily: "Inter, system-ui, sans-serif",
