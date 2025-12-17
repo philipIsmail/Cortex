@@ -1,16 +1,39 @@
-# React + Vite
+# Cortex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cortex is a web-based mental state inference system that decodes cognitive state from interaction signals, not self-labeled emotions.
 
-Currently, two official plugins are available:
+Users tap words or phrases that resonate with their current experience. Each tap cycles intensity, which the system treats as signal strength. A decoder infers the most likely mental state and returns a confidence-weighted result.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What It Does
+- Collects high-dimensional interaction signals  
+- Infers functional mental states (not moods)  
+- Surfaces uncertainty only when it exists  
+- Returns non-prescriptive avenues, not advice  
 
-## React Compiler
+## Inferred States
+- Focused but Blocked  
+- Anxiety  
+- Fear  
+- Overstimulation  
+- Mental Fatigue  
+- Calm & Aligned  
+- Fear-Driven Overdrive  
+- Flow State  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How It Works
+1. Signal input via tap-based interaction  
+2. Signals map to latent dimensions like engagement, clarity, threat, and fatigue  
+3. A deterministic decoder outputs the top state and confidence  
 
-## Expanding the ESLint configuration
+This approach is inspired by how BCI systems infer intent from indirect, noisy input.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- React + Vite  
+- Client-side inference (no backend)  
+- No data storage  
+
+## Disclaimer
+Cortex is an experimental interface and is not a medical, psychological, or diagnostic tool.
+
+## Author
+Philip Ismai
